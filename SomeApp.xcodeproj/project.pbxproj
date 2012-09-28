@@ -15,13 +15,15 @@
 		304C3FE81615EA1500F54893 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 304C3FDA1615EA1500F54893 /* Default@2x.png */; };
 		304C3FEA1615EA1500F54893 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 304C3FDE1615EA1500F54893 /* AppDelegate.m */; };
 		304C3FEB1615EA1500F54893 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 304C3FE41615EA1500F54893 /* main.m */; };
+		EB7DE422856B4BDC80031A09 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7B7E70285954D4CB6164B30 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E953B332711430FBDFC3BFA /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		304C3FA11615D80900F54893 /* SomeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SomeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		304C3FA51615D80900F54893 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		304C3FA71615D80900F54893 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		304C3FA91615D80900F54893 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		304C3FA51615D80900F54893 /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		304C3FA71615D80900F54893 /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		304C3FA91615D80900F54893 /* CoreGraphics.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		304C3FD51615EA1500F54893 /* App-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "App-Info.plist"; sourceTree = "<group>"; };
 		304C3FD81615EA1500F54893 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		304C3FD91615EA1500F54893 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -32,6 +34,7 @@
 		304C3FE31615EA1500F54893 /* App-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "App-Prefix.pch"; sourceTree = "<group>"; };
 		304C3FE41615EA1500F54893 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		304C3FEC1615EAAC00F54893 /* Configuration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Configuration.h; sourceTree = "<group>"; };
+		D7B7E70285954D4CB6164B30 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +45,7 @@
 				304C3FA61615D80900F54893 /* UIKit.framework in Frameworks */,
 				304C3FA81615D80900F54893 /* Foundation.framework in Frameworks */,
 				304C3FAA1615D80900F54893 /* CoreGraphics.framework in Frameworks */,
+				EB7DE422856B4BDC80031A09 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +60,7 @@
 				304C3FA41615D80900F54893 /* Frameworks */,
 				304C3FD41615EA1500F54893 /* Resources */,
 				304C3FA21615D80900F54893 /* Products */,
+				0E953B332711430FBDFC3BFA /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +78,7 @@
 				304C3FA51615D80900F54893 /* UIKit.framework */,
 				304C3FA71615D80900F54893 /* Foundation.framework */,
 				304C3FA91615D80900F54893 /* CoreGraphics.framework */,
+				D7B7E70285954D4CB6164B30 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -158,6 +164,7 @@
 				304C3F9D1615D80900F54893 /* Sources */,
 				304C3F9E1615D80900F54893 /* Frameworks */,
 				304C3F9F1615D80900F54893 /* Resources */,
+				8300AE53FB804B219B1ED36F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -206,6 +213,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8300AE53FB804B219B1ED36F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		304C3F9D1615D80900F54893 /* Sources */ = {
@@ -271,6 +295,7 @@
 		};
 		304C3FC01615D80900F54893 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E953B332711430FBDFC3BFA /* Pods.xcconfig */;
 			buildSettings = {
 				ALTERNATE_GROUP = "$(INSTALL_GROUP)";
 				APP_NAME = "SomeApp Dev";
@@ -288,6 +313,7 @@
 				INSTALL_GROUP = "$(GROUP)";
 				OTHER_LDFLAGS = (
 					"-ObjC",
+					"$(inherited)",
 					"-all_load",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -297,6 +323,7 @@
 		};
 		304C3FC11615D80900F54893 /* Staging */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E953B332711430FBDFC3BFA /* Pods.xcconfig */;
 			buildSettings = {
 				ALTERNATE_GROUP = "$(INSTALL_GROUP)";
 				APP_NAME = "SomeApp Staging";
@@ -310,6 +337,7 @@
 				INSTALL_GROUP = "$(GROUP)";
 				OTHER_LDFLAGS = (
 					"-ObjC",
+					"$(inherited)",
 					"-all_load",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -341,6 +369,7 @@
 		};
 		304C3FC31615D94500F54893 /* Production */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E953B332711430FBDFC3BFA /* Pods.xcconfig */;
 			buildSettings = {
 				ALTERNATE_GROUP = "$(INSTALL_GROUP)";
 				APP_NAME = SomeApp;
@@ -354,6 +383,7 @@
 				INSTALL_GROUP = "$(GROUP)";
 				OTHER_LDFLAGS = (
 					"-ObjC",
+					"$(inherited)",
 					"-all_load",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
