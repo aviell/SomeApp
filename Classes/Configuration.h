@@ -24,12 +24,14 @@
 
 //	#define kMixPanelEnabled        NO
 //	#define kMixPanelToken          @"TOKEN"
-//	#define kMixPanelTestMode       YES
+//  #define kMixPanelTestMode       YES
 
-// #define kCrittercismEnabled		NO
-// #define kCrittercismAppId		@"APPID"
-// #define kCrittercismKey			@"KEY"
-// #define kCrittercismSecret		@"SECRET"
+//  #define kCrittercismEnabled		NO
+//  #define kCrittercismAppId		@"APPID"
+//  #define kCrittercismKey			@"KEY"
+//  #define kCrittercismSecret		@"SECRET"
+
+    #define kDCIntrospectEnabled     YES
 
 #elif (HOST == STAGING)
 //	#define kAppAPIHost				@"http://intra.acme.com/api"	
@@ -38,10 +40,11 @@
 //	#define kMixPanelToken          @"TOKEN"
 //	#define kMixPanelTestMode       NO
 
-// #define kCrittercismEnabled		YES
-// #define kCrittercismAppId		@"APPID"
-// #define kCrittercismKey			@"KEY"
-// #define kCrittercismSecret		@"SECRET"
+//  #define kCrittercismEnabled		YES
+//  #define kCrittercismAppId		@"APPID"
+//  #define kCrittercismKey			@"KEY"
+//  #define kCrittercismSecret       @"SECRET"
+    #define kDCIntrospectEnabled    NO
 #elif (HOST == PROD)
 //	#define kAppAPIHost				@"http://www.acme.com/api"	
 
@@ -49,9 +52,10 @@
 //	#define kMixPanelToken          @"TOKEN"
 //	#define kMixPanelTestMode       NO
 
-// #define kCrittercismEnabled		YES
-// #define kCrittercismAppId		@"APPID"
-// #define kCrittercismKey			@"KEY"
-// #define kCrittercismSecret		@"SECRET"
+//  #define kCrittercismEnabled		YES
+//  #define kCrittercismAppId		@"APPID"
+//  #define kCrittercismKey			@"KEY"
+//  #define kCrittercismSecret		@"SECRET"
+    #define kDCIntrospectEnabled    NO
 #endif
 #endif
