@@ -16,7 +16,8 @@ Setup
 ### Rename the Application Name
 * Rename project name
 	* Select project in **Project Navigator** ![Project Navigator](http://i.imgur.com/yDmbD.png "Project Navigator")
-	* Select the **File Inspector**, enter the Project name and the Organization name ![File Inspector](http://i.imgur.com/YCbeL.png "File Inspector") 
+	* Select the **File Inspector**, enter the Project name and the Organization name 
+	![File Inspector](http://i.imgur.com/YCbeL.png "File Inspector") 
 * Update Build Settings 
 	* Rename APP_NAME. This name will be displayed on the SpringBoard
 	* Rename BUNDLE_ID. Make sure they are different for each configuration to enable side-by-side installation.
