@@ -21,7 +21,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0E953B332711430FBDFC3BFA /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		30063FE71616EEA700E0F5D6 /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynthesizeSingleton.h; sourceTree = "<group>"; };
 		304C3FA11615D80900F54893 /* SomeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SomeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		304C3FA51615D80900F54893 /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -75,7 +74,6 @@
 				304C3FD41615EA1500F54893 /* Resources */,
 				30063FFE1617429600E0F5D6 /* Vendor */,
 				304C3FA21615D80900F54893 /* Products */,
-				0E953B332711430FBDFC3BFA /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -329,7 +327,6 @@
 		};
 		304C3FC01615D80900F54893 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E953B332711430FBDFC3BFA /* Pods.xcconfig */;
 			buildSettings = {
 				ALTERNATE_GROUP = "$(INSTALL_GROUP)";
 				APP_NAME = "SomeApp Dev";
@@ -357,7 +354,6 @@
 		};
 		304C3FC11615D80900F54893 /* Staging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E953B332711430FBDFC3BFA /* Pods.xcconfig */;
 			buildSettings = {
 				ALTERNATE_GROUP = "$(INSTALL_GROUP)";
 				APP_NAME = "SomeApp Staging";
@@ -405,7 +401,6 @@
 		};
 		304C3FC31615D94500F54893 /* Production */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E953B332711430FBDFC3BFA /* Pods.xcconfig */;
 			buildSettings = {
 				ALTERNATE_GROUP = "$(INSTALL_GROUP)";
 				APP_NAME = SomeApp;
