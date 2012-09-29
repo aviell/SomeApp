@@ -59,6 +59,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30063FFE1617429600E0F5D6 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
 		304C3F961615D80900F54893 = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +73,7 @@
 				304C3FE21615EA1500F54893 /* Other Sources */,
 				304C3FA41615D80900F54893 /* Frameworks */,
 				304C3FD41615EA1500F54893 /* Resources */,
+				30063FFE1617429600E0F5D6 /* Vendor */,
 				304C3FA21615D80900F54893 /* Products */,
 				0E953B332711430FBDFC3BFA /* Pods.xcconfig */,
 			);
@@ -323,7 +331,7 @@
 				APP_NAME = "SomeApp Dev";
 				ARCHS = armv7;
 				BUNDLE_ID = com.acme.someapp.dev;
-				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/Vendor\"";
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Vendor";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Other Sources/App-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -351,7 +359,7 @@
 				APP_NAME = "SomeApp Staging";
 				ARCHS = armv7;
 				BUNDLE_ID = com.acme.someapp.staging;
-				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/Vendor\"";
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Vendor";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Other Sources/App-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = "ENV=STAGING";
@@ -397,7 +405,7 @@
 				APP_NAME = SomeApp;
 				ARCHS = armv7;
 				BUNDLE_ID = com.acme.someapp;
-				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/Vendor\"";
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Vendor";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Other Sources/App-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = "ENV=PRODUCTION";
