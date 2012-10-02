@@ -28,6 +28,10 @@ Setup
 	* The company name - `Acme Corporation` 
 	* The developer name -  `Aviel Lazar`
 
+4. Rename Scheme
+	* Select in menu Product > Manage Scheme...
+ 	* Single click the SomeApp scheme and change the name. 	
+
 ### Install Pods
 Make sure your got [CocoaPods](https://github.com/CocoaPods/CocoaPods) installed.
 
