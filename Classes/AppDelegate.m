@@ -32,8 +32,6 @@ int ddLogLevel = LOG_LEVEL_VERBOSE;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
 
-    [UIColor colorWithHex:<#(int)hex#>]
-
 
     [self _setupDCIntrospect];
 

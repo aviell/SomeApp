@@ -58,21 +58,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		30063FFE1617429600E0F5D6 /* Vendor */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Vendor;
-			sourceTree = "<group>";
-		};
 		304C3F961615D80900F54893 = {
 			isa = PBXGroup;
 			children = (
+				30C7CC221628941B002E0262 /* Vendor */,
 				304C3FDC1615EA1500F54893 /* Classes */,
 				304C3FE21615EA1500F54893 /* Other Sources */,
 				304C3FA41615D80900F54893 /* Frameworks */,
 				304C3FD41615EA1500F54893 /* Resources */,
-				30063FFE1617429600E0F5D6 /* Vendor */,
 				304C3FA21615D80900F54893 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,19 +92,12 @@
 		304C3FD41615EA1500F54893 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				304C3FD61615EA1500F54893 /* Fonts */,
+				30C7CC2316289436002E0262 /* Fonts */,
 				304C3FD71615EA1500F54893 /* Images */,
 				304C3FD51615EA1500F54893 /* App-Info.plist */,
 				304C3FDB1615EA1500F54893 /* InfoPlist.strings */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		304C3FD61615EA1500F54893 /* Fonts */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Fonts;
 			sourceTree = "<group>";
 		};
 		304C3FD71615EA1500F54893 /* Images */ = {
@@ -127,9 +113,9 @@
 		304C3FDC1615EA1500F54893 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				30C7CC20162893FA002E0262 /* ViewControllers */,
+				30C7CC21162893FA002E0262 /* Views */,
 				304C3FDF1615EA1500F54893 /* Helpers */,
-				304C3FE01615EA1500F54893 /* ViewControllers */,
-				304C3FE11615EA1500F54893 /* Views */,
 				304C3FEC1615EAAC00F54893 /* Configuration.h */,
 				304C3FDD1615EA1500F54893 /* AppDelegate.h */,
 				304C3FDE1615EA1500F54893 /* AppDelegate.m */,
@@ -148,20 +134,6 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
-		304C3FE01615EA1500F54893 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		304C3FE11615EA1500F54893 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
 		304C3FE21615EA1500F54893 /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
@@ -169,6 +141,34 @@
 				304C3FE41615EA1500F54893 /* main.m */,
 			);
 			path = "Other Sources";
+			sourceTree = "<group>";
+		};
+		30C7CC20162893FA002E0262 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		30C7CC21162893FA002E0262 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		30C7CC221628941B002E0262 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		30C7CC2316289436002E0262 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		58E22535F03A3238DB4D70D9 /* Categories */ = {
